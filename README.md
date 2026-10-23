@@ -31,20 +31,23 @@ In Task 4, the **College Notice Board System** was significantly enhanced to pro
 * **Database Schema:** `noticeboard.sql` includes all updated table structures (`users`, `notices`) and role definitions.
 * **Compatibility:** Tested on local XAMPP environment (Apache Server & MySQL Database).
 
-* task4/
+##  Directory Structure
+
+```text
+task4/
 ├── api/
-│   └── get_notices.php       # JSON API Endpoint for Async Requests
+│   └── get_notices.php        # JSON API Endpoint for Async Requests
 ├── classes/
-│   ├── CategoryNotice.php    # Extended Class for Category Logic
-│   ├── Notice.php            # Core Base Class for Notice CRUD
-│   └── Notification.php      # Class for Student Notification Tracking
+│   ├── CategoryNotice.php     # Extended Class for Category Logic
+│   ├── Notice.php             # Core Base Class for Notice CRUD
+│   └── Notification.php       # Class for Student Notification Tracking
 ├── config/
-│   └── Database.php         # PDO Database Connection
+│   └── Database.php           # PDO Database Connection
 ├── security/
-│   ├── login.php           # login page for admin and student portal
-│   ├── logout.php           # logout page for admin and student portal
-│   └── register.php        # registeration of student portal before the dashboard
-├── admin_dashboard.php       # Administrative Control Panel (CRUD)
-├── index.php              # Student Portal & Dynamic Notice View
-├── noticeboard.sql               # database schema of table `users`and `notices`
-└── README.md                 # Project Documentation
+│   ├── login.php              # Login page for Admin and Student Portal
+│   ├── logout.php             # Logout handler and session destruction
+│   └── register.php           # Registration page for Student Portal
+├── admin_dashboard.php        # Administrative Control Panel (Notice CRUD)
+├── index.php                  # Student Portal & Dynamic Notice View
+├── noticeboard.sql            # Complete database schema (`users` & `notices`)
+└── README.md                  # Project Documentation
