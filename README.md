@@ -1,5 +1,5 @@
 # College-Noticeboard-Task4
-# 🔒 Task 4: Security Enhancement & Access Control
+#  Task 4: Security Enhancement & Access Control
 
 ## Overview
 In Task 4, the **College Notice Board System** was significantly enhanced to protect user data, prevent common web vulnerabilities, and enforce strict permission levels across different user roles.
